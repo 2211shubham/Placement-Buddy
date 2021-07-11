@@ -115,3 +115,13 @@ body {
 .last {
 	margin-bottom: 30px;
 }
+
+.footer {
+	text-align: center;
+	color: #d2d8da !important;
+	background-color: rgb(63 140 40);
+	height: 12vh;
+	margin-top: 50px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 1200;
+}
