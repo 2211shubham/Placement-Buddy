@@ -160,6 +160,23 @@ button:hover {
 	margin-top: 25px;
 }
 
+img {
+	border-radius: 50% !important;
+}
+
+.main-style {
+	margin-top: 30px;
+}
+
+.main-style h6 {
+	text-align: center;
+	color: #d2d8da;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
 .main {
 	text-align: center;
 	font-family: "Montserrat", sans-serif;
