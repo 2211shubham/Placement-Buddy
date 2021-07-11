@@ -1,9 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+.navbar {
+	background-color: rgb(2, 7, 14) !important;
+	padding: 3rem 2rem;
+	height: 0rem;
+	min-height: 12vh;
+}
+ul {
+	list-style-type: none;
+}
+.navbar .navbar-brand a {
+	padding: 1rem 0;
+	display: block;
+	text-decoration: none;
+}
+.navbar-collapse {
+	background: rgb(2, 7, 14);
+}
+.navbar-brand {
+	font-family: "Ubuntu";
+	color: white !important;
+}
+.navbar-toggler {
+	background: white !important;
+	border: none;
+	padding: 10px 6px;
+	outline: none;
+}
+.navbar-toggler span {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border: 1px;
+	background: black;
+}
+.navbar-toggler span + span {
+	margin-top: 4px;
+	width: 18px;
+	margin-left: 4px;
+}
+
+.navbar-toggler span + span + span {
+	/* margin-left: 10px; */
+	width: 22px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 2rem 1.2rem;
+
+	position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	border-top: 4px solid rgb(42, 226, 73) !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+	color: rgb(42, 226, 73);
 }
 body {
 	background-color: rgb(2, 7, 14) !important;
@@ -88,11 +147,12 @@ button:hover {
 .card_inner:hover {
 	background-color: rgb(0, 73, 10);
 }
-.btn {
+.card_wrap .btn {
 	background-color: black !important;
 	margin-top: 100px;
 	margin-left: 47px;
 }
+
 .btn:hover {
 	background-color: rgb(53, 58, 54) !important;
 }
