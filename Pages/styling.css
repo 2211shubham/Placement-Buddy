@@ -116,6 +116,11 @@ body {
 	margin-bottom: 30px;
 }
 
+.card-wrap {
+	padding: 20px;
+	width: 100%;
+}
+
 .footer {
 	text-align: center;
 	color: #d2d8da !important;
